@@ -8,6 +8,8 @@ import {
 States,
 SocialCard,
 RandomMemeGenerator,
+WeatherForecast,
+WeatherApp,
 //import play here
 } from "plays";
 
@@ -110,6 +112,30 @@ export const plays = [
     level: 'Beginner',
     tags: 'JSX,Hooks,API,EventHandling',
     github: 'murtuzaalisurti',
+    cover: '',
+    blog: '',
+    video: ''
+  }, {
+    id: 'pl-weather-forecast', 
+    name: 'Weather Forecast', 
+    description: 'Web app for weather forecasting',
+    component: () => {return <WeatherForecast />},
+    path: '/plays/weather-forecast',
+    level: 'Intermediate',
+    tags: 'hooksapi',
+    github: 'ShivamRana207',
+    cover: '',
+    blog: '',
+    video: ''
+  }, {
+    id: 'pl-weather-app', 
+    name: 'Weather App', 
+    description: 'Web App to show Weather forecast',
+    component: () => {return <WeatherApp />},
+    path: '/plays/weather-app',
+    level: 'Intermediate',
+    tags: 'JSXHooksandBasicofReact',
+    github: 'ShivamRana207',
     cover: '',
     blog: '',
     video: ''

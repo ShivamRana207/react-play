@@ -9,4 +9,6 @@ export { default as CounterApp } from 'plays/counter/CounterApp';
 export { default as States } from 'plays/states/States';
 export { default as SocialCard } from 'plays/social-card/SocialCard';
 export { default as RandomMemeGenerator } from 'plays/random-meme-generator/RandomMemeGenerator';
+export { default as WeatherForecast } from 'plays/weather-forecast/WeatherForecast';
+export { default as WeatherApp } from 'plays/weather-app/WeatherApp';
 //add export here
